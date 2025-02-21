@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en"
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code about the website NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Jenna Maynard">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes"
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Jenna's Screenprinting Project</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="{% static 'core/style.css' %}">
+        <!--
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
+            file name to find this code that you'll write/edit there.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+
+        <h1>My experience with screen printing.</h1>
+	<h2>Overview of assignment</h2>
+	<p>	During this assignment our main goal was to design and create a stencil to screen print. Some requirements include, a photo of yourself, edited in photoshop, made a screen, printed out stencil, painted a box, piece of fabric, and 2 sheets of paper. </p>
+     <h2>Original Concept</h2>
+	<p>	My original concept was to take a photo of my eye and then add a teardrop and the words happy to represent how you may look happy but there is more than meets the eye. But throughout the process of the project my idea changed by getting rid of the teardrop and moving “happy” into the crease of my eye. My design then symbolized how an eye can represent happiness and it does not have a targeted audience.</p>
+<h2>Photographs</h2>
+<p>	My team consisted of two people, Rayan and Sabri. When I was ready to take my photo I had both teammates take many pictures and then I would choose whichever one was more clear or liked better to use in my project. While taking my photo my teammates had to zoom in as much as possible and try to focus the camera so details in my eye were clear and visible. My camera settings were 1/2000 (0.0005 s) meaning that the shutter speed was extremly fast and could take a very clear photo and F11 which means it slightly blurs the backround.</p>
+<h3> Orignal Unedited photo</h3>
+<img src="{% static 'core/Unedited photo_Jenna.png' %}" alt="A photo of my unedited photo" width="200">
+<h2>Summary of photoshop</h2>
+<p>	When I first came into photoshop I uploaded my photo onto a blank file and sized it to the proper size. Once it was in the file I had to then put a filter on my design so it could be black and white. But knowing I would have to pick out the colored parts in the stencil so when the filter was put on it created lots of little dots with color so I placed a blur over it to minimize the dots. After that I added my text and made it very wide and easy to read and moved it into the crease. But it would lie straight and ruin the look of the design. So I had to select the text and then warped it to follow the shape of the crease.</p>
+<h3> Finished image in photoshop</h3>
+<img src="{% static 'core/Finished image in PS.png' %}" alt="My finished image in photo shop"width="300">
+<h2>Physical Process</h2>
+<p>	To start the physical process we went into Adobe Illustrator and made a diagram with dimensions of what our screen will look like. My particular screen was 10in*10in.</p>
+<h3>Diagram of frame</h3>
+<img src="{% static 'core/Diagram.png' %}" alt="Finished diagram of frame" width="300">
+<p>After my diagram was done and checked by my teacher I started measuring my wood. I measured 4 pieces of wood 10in then I used the angle on my triangle construction ruler to make an angle on all pieces of wood so they could connect into corners. Then I started to cut. I needed goggles and one arm by my side to use the saw.</p>
+<h3> Photos of me cutting wood</h3>
+<img src="{% static 'core/Cutting wood.png' %}" alt="Me cutting the wood" width="300">
+<p>The first two cuts I made had to be checked by the teacher to make sure it was aligned correctly and it would be cut correctly and safely. Once all pieces were cut I needed to glue and staple the wood together. When gluing using another classmate is recommended, while one person holds the glue together the other person staples the wood 2-3 times on each side. After the process has been repeated 3 more times the next step is to staple the screen and nail the staples if needed.  When cutting out the screen cut 1 ½ inches from each side to ensure that it will fit around the frame. When I was going to staple my screen my classmate and I started by one of us holding down and pulling and the other one stapling and then I would nail the staples in further.</p>
+<h3> Me nailing in the loose staples</h3>
+<img src="{% static 'core/nailing in staples.png' %}" alt="Nailing the staples into the wood" width="300">
+<p>Then I taped all along the edges to make sure none of the staples fell out. After that it was time to print out the stencil. The first thing I did was enter Silhouette studios and upload my art into it making sure I add an inch in between the two corners. After that I had to flip my image and then add my material onto the sticky mat. The mat was then placed into the machine and I sent the image to be cut out. Once my image was done being cut I had to weed out all the parts that were going to have color.</p>
+<h3>Me picking out the colored parts in the stencil</h3>
+<img src="{% static 'core/weeding stencil.png' %}" alt="Me weeding the Stencil" width="200">
+<p>When I completed that I had to iron on the stencil by placing a heat cover over my screen and slowly melting the stencil into the screen. I was then able to peel off a clear cover off of the stencil.</p> <h3> Me ironing on the stencil to the screen</h3>
+<img src="{% static 'core/Ironing on stencil.png' %}" alt="Ironing the stencil on" width="300">
+<p>The last step that had to be completed was painting, I started this process by clamping down my screen in a way that is able to flip up and down. A paper was placed underneath and I marked where the paper was placed with tape to make sure the next paper was put in the exact same place. I then repeated this process on fabric and a box. Taking pictures throughout the whole process was a requirement and taking pictures of the end result.</p>
+<h3> Final results of frame</h3>
+<img src="{% static 'core/Final frame.png' %}" alt="Final frame"width="300">
+<h3> Final results of my paper printing</h3>
+<img src="{% static 'core/Final paper.png' %}" alt="Final paper" width="300">
+<h3> Final results of fabric printing</h3>
+<img src="{% static 'core/Final Fabric.png' %}" alt="Final fabric" width="300">
+<h3> Final results of box printing</h3>
+<img src="{% static 'core/final box.png' %}" alt="Final box" width="300">
+
+<h2> Reflection</h2>
+<p>	The part I enjoyed most about this project is the physical building process, specifically the cutting and gluing of the frame. The part I did most effectively was the painting because I took my time and did in the least amount of tries. I showed leadership multiple times by helping my classmates whenever they needed, taking my work time to answer classmates' questions.</p>
+
+<p>	Something that was challenging for me was editing my photo because I had trouble with photoshop and following along without following behind. I changed parts in my project and its meaning. I would like to continue as a learner by being able to ask more questions.</p>
+<h2> 21st Century skills</h2>
+<p>	I think I have grown the most in Communication and Collaboration, specifically Communicating effectively and working productively with others. I have grown in this because of the time I have spent helping my classmates and understanding what they are having trouble with and how I can help them. My group I was in also was very good at taking photos and helping with group work. If I had done this alone I would not have been as successful because of the partner work involved. I spent all of my class time to prepare for the project, it took many weeks to complete. I would say I worked very productively during my time to meet all requirments involved.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
