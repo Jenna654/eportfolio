@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Unlock&display=swap');
+
+
+h1, h2 {
+	color: #8345ff;
+ font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+       max-width: 800px;
+       margin: auto;
+}
+
+table, th, td {
+border:1px solid black;
+border-collapse: collapse;
+ font-family: "Agasima", sans-serif;
+font-weight:400;
+font-style:normal;
+padding:8px;
+text-align: center;
+}
+
+th {
+	font-weight: 900;
+}
+table {
+	margin: auto;
+	width: 70%;
+}
+nav ul {
+  list-style-type: none;
+}
+

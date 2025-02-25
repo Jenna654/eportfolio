@@ -42,3 +42,7 @@ table {
 	margin: auto;
 	width: 70%;
 }
+nav ul {
+  list-style-type: none;
+}
+
